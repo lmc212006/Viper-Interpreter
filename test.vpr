@@ -1,0 +1,10 @@
+test="hello"
+reply="hello"
+out(test)
+if(test!=reply){
+    out("WHAT IM ON FIRE")
+}
+test=1+1
+out(test)
+out("hello")
+out("iam laaksh")
