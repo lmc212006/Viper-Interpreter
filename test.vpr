@@ -2,9 +2,13 @@ test="hello"
 reply="hello"
 out(test)
 if(test!=reply){
-    out("WHAT IM ON FIRE")
+    out("variable test is not equal to variable reply")
 }
-test=1+1
+if(test==reply){
+    out("variable test is equal to variable reply")
+}
+test=69+420
 out(test)
+out("program will wait for 2 seconds, and print hello")
+wait(2)
 out("hello")
-out("iam laaksh")
